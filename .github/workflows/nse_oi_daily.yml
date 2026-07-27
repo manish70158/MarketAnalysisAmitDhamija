@@ -1,0 +1,32 @@
+name: NSE Participant OI Daily Report
+
+on:
+  schedule:
+    # 9 PM IST = 15:30 UTC (Mon-Fri, NSE closed on weekends)
+    - cron: '30 15 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  generate-and-send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate NSE Participant OI report
+        run: python nse_participant_oi_horizontal.py
+
+      - name: Send report to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_telegram.py
