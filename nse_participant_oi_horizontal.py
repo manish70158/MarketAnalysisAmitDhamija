@@ -35,29 +35,37 @@ class NSEParticipantOIDashboard:
 
     # ──────────────────── NSE Data Fetching ────────────────────
 
+    def _get_session(self):
+        """Create a requests session with NSE cookies."""
+        if not hasattr(self, '_session') or self._session is None:
+            self._session = requests.Session()
+            self._session.headers.update({
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Referer': 'https://www.nseindia.com/',
+            })
+            # Hit NSE homepage to get cookies
+            try:
+                self._session.get("https://www.nseindia.com/", timeout=10)
+            except Exception:
+                pass
+        return self._session
+
     def fetch_nse_data(self, date_str):
         """
-        Fetch participant OI data from NSE archives
+        Fetch participant OI data from NSE archives.
+        Always fetches fresh from NSE; uses local cache only as fallback.
         date_str format: 'DDMMYYYY' (e.g., '24072026')
         Returns: dict with participant data or None
         """
         csv_file = f"participant_oi_{date_str}.csv"
-
-        # Check local cache first
-        if os.path.exists(csv_file):
-            with open(csv_file, 'r') as f:
-                return self.parse_nse_csv(f.read())
-
-        # Download from NSE
         url = f"https://archives.nseindia.com/content/nsccl/fao_participant_oi_{date_str}.csv"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-            'Accept': '*/*',
-            'Referer': 'https://www.nseindia.com/',
-        }
 
+        # Try downloading fresh data from NSE
         try:
-            r = requests.get(url, headers=headers, timeout=15)
+            session = self._get_session()
+            r = session.get(url, timeout=15)
             if r.status_code == 200 and len(r.content) > 100:
                 with open(csv_file, 'wb') as f:
                     f.write(r.content)
@@ -65,10 +73,16 @@ class NSEParticipantOIDashboard:
                 return self.parse_nse_csv(r.text)
             else:
                 print(f"  Not available: {date_str} (status {r.status_code})")
-                return None
         except Exception as e:
             print(f"  Error fetching {date_str}: {e}")
-            return None
+
+        # Fallback: use local cache if download failed
+        if os.path.exists(csv_file):
+            print(f"  Using cached: {csv_file}")
+            with open(csv_file, 'r') as f:
+                return self.parse_nse_csv(f.read())
+
+        return None
 
     def parse_nse_csv(self, csv_text):
         """
