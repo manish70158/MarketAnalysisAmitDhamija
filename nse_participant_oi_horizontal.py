@@ -201,7 +201,7 @@ class NSEParticipantOIDashboard:
 
     def build_subtitle(self, ws, row):
         self.merged_row(ws, row, 1, 10,
-                        "Oil Changes  |  Youtube Channel  |  Market Analysis With Amit Dhamija",
+                        "Oil Changes  |  Youtube Channel  |  Market Analysis With Manish Kumar",
                         self.yellow_fill, self.bold_font)
         for col in range(11, 15):
             self.cell(ws, row, col, "", self.yellow_fill, self.bold_font, self.center)
@@ -324,7 +324,7 @@ class NSEParticipantOIDashboard:
 
     def build_separator(self, ws, row):
         self.merged_row(ws, row, 1, 10,
-                        "YouTube Channel  |  Market Analysis  |  With Amit Dhamija",
+                        "YouTube Channel  |  Market Analysis  |  With Manish Kumar",
                         self.yellow_fill, self.bold_font)
         # Keep right-side columns independent (not merged)
         for col in range(11, 15):
@@ -526,7 +526,7 @@ class NSEParticipantOIDashboard:
             "1) World Market Should Have Opposite (Trend)",
             "Watch out for market impacting news",
             "POWER PACKED WEBINAR PACKAGE for Best Strategies:",
-            "Telegram : Market Analysis With Amit Dhamija OR",
+            "Telegram : Market Analysis With Manish Kumar OR",
             "t.me/MarketAnalysisNiftyBankNifty",
         ]
         for text in info_lines:
