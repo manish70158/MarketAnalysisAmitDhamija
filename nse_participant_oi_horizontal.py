@@ -500,7 +500,14 @@ class NSEParticipantOIDashboard:
             # One row per instrument showing net bought/sold (text color only)
             for inst in instrument_labels:
                 val = right_instrument[(p, inst)]
-                font_color = green_text if val > 0 else red_text
+
+                # For puts: invert color logic (positive=bearish/red, negative=bullish/green)
+                is_put_instrument = 'Put' in inst
+                if is_put_instrument:
+                    font_color = red_text if val > 0 else green_text
+                else:
+                    font_color = green_text if val > 0 else red_text
+
                 label = "Bought Net" if val > 0 else "Sold Net"
                 self.cell(ws, right_row, 12, label, None, font_color, self.center)
                 self.cell(ws, right_row, 13, inst, None, self.normal_font, self.center)
