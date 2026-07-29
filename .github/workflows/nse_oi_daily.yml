@@ -6,6 +6,9 @@ on:
     - cron: '30 15 * * 1-5'
   workflow_dispatch:
 
+permissions:
+  contents: write  # Required to commit and push files
+
 jobs:
   generate-and-send:
     runs-on: ubuntu-latest
@@ -25,7 +28,24 @@ jobs:
       - name: Generate NSE Participant OI report
         run: python nse_participant_oi_horizontal.py
 
-      - name: Send report to Telegram
+      - name: Generate market prediction
+        run: python predict_market_view.py
+        continue-on-error: true
+
+      - name: Commit prediction history and data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add prediction_history.json participant_oi_*.csv market_prediction.json 2>/dev/null || true
+          if ! git diff --quiet --staged; then
+            git commit -m "📊 Daily update: prediction history + NSE data - $(date +'%d %b %Y')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        continue-on-error: true
+
+      - name: Send reports to Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

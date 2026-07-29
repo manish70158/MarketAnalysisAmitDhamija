@@ -42,11 +42,49 @@ def main():
         )
 
     if resp.status_code == 200 and resp.json().get("ok"):
-        print("Sent successfully")
+        print("✓ Excel report sent successfully")
     else:
         print(f"ERROR: Telegram API returned {resp.status_code}")
         print(resp.text)
         sys.exit(1)
+
+    # Send prediction if available
+    if os.path.exists("market_prediction.txt"):
+        print("\nSending market prediction...")
+        with open("market_prediction.txt", "r") as f:
+            prediction_text = f.read()
+
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        resp = requests.post(
+            url,
+            data={"chat_id": chat_id, "text": prediction_text},
+            timeout=30,
+        )
+
+        if resp.status_code == 200 and resp.json().get("ok"):
+            print("✓ Prediction sent successfully")
+        else:
+            print(f"WARNING: Prediction send failed with status {resp.status_code}")
+            print(resp.text)
+
+    # Send high-confidence alert if available (with higher priority formatting)
+    if os.path.exists("high_confidence_alert.txt"):
+        print("\nSending HIGH CONFIDENCE ALERT...")
+        with open("high_confidence_alert.txt", "r") as f:
+            alert_text = f.read()
+
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        resp = requests.post(
+            url,
+            data={"chat_id": chat_id, "text": alert_text},
+            timeout=30,
+        )
+
+        if resp.status_code == 200 and resp.json().get("ok"):
+            print("✓ 🔥 High confidence alert sent successfully")
+        else:
+            print(f"WARNING: Alert send failed with status {resp.status_code}")
+            print(resp.text)
 
 
 if __name__ == "__main__":
