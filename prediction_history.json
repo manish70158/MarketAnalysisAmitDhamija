@@ -1,0 +1,50 @@
+{
+  "predictions": [
+    {
+      "date": "30 JUL 2026",
+      "market_view": "NEUTRAL",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "NEUTRAL",
+          "fut_net": -1902,
+          "options_net": 15242,
+          "magnitude": 1902,
+          "weight": 0.06,
+          "options_confirm": false,
+          "contrarian_view": "NEUTRAL"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": -4634,
+          "options_net": -6476,
+          "magnitude": 4634,
+          "weight": 0.15,
+          "options_confirm": false
+        },
+        "FII": {
+          "stance": "BULLISH",
+          "fut_net": 8206,
+          "options_net": 18379,
+          "magnitude": 8206,
+          "weight": 0.27,
+          "options_confirm": true
+        },
+        "Pro": {
+          "stance": "NEUTRAL",
+          "fut_net": -1670,
+          "options_net": -27144,
+          "magnitude": 1670,
+          "weight": 0.06,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [],
+      "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-07-30T17:02:25.677523"
+    }
+  ],
+  "metadata": {
+    "created": "2026-07-30T17:02:25.677516"
+  }
+}
