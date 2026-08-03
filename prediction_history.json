@@ -85,6 +85,51 @@
       "key_factors": [],
       "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-07-31T17:05:49.394107"
+    },
+    {
+      "date": "03 AUG 2026",
+      "market_view": "BULLISH",
+      "confidence": "MEDIUM",
+      "participants": {
+        "Client": {
+          "stance": "BEARISH",
+          "fut_net": -11642,
+          "options_net": -208378,
+          "magnitude": 11642,
+          "weight": 0.39,
+          "options_confirm": true,
+          "contrarian_view": "BULLISH"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": 448,
+          "options_net": 540,
+          "magnitude": 448,
+          "weight": 0.01,
+          "options_confirm": true
+        },
+        "FII": {
+          "stance": "BULLISH",
+          "fut_net": 22297,
+          "options_net": 76370,
+          "magnitude": 22297,
+          "weight": 0.74,
+          "options_confirm": true
+        },
+        "Pro": {
+          "stance": "BEARISH",
+          "fut_net": -11103,
+          "options_net": 131467,
+          "magnitude": 11103,
+          "weight": 0.37,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [
+        "FII strongly bullish (+22,297 contracts) with options confirmation"
+      ],
+      "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation.",
+      "recorded_at": "2026-08-03T17:26:26.093475"
     }
   ],
   "metadata": {
