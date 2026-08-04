@@ -1,44 +1,42 @@
 {
-  "date": "03 AUG 2026",
-  "market_view": "BULLISH",
-  "confidence": "MEDIUM",
+  "date": "04 AUG 2026",
+  "market_view": "BEARISH",
+  "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BEARISH",
-      "fut_net": -11642,
-      "options_net": -208378,
-      "magnitude": 11642,
-      "weight": 0.39,
+      "stance": "BULLISH",
+      "fut_net": 18015,
+      "options_net": 174449,
+      "magnitude": 18015,
+      "weight": 0.6,
       "options_confirm": true,
-      "contrarian_view": "BULLISH"
+      "contrarian_view": "BEARISH"
     },
     "DII": {
-      "stance": "NEUTRAL",
-      "fut_net": 448,
-      "options_net": 540,
-      "magnitude": 448,
-      "weight": 0.01,
-      "options_confirm": true
+      "stance": "BEARISH",
+      "fut_net": -7816,
+      "options_net": 4410,
+      "magnitude": 7816,
+      "weight": 0.26,
+      "options_confirm": false
     },
     "FII": {
-      "stance": "BULLISH",
-      "fut_net": 22297,
-      "options_net": 76370,
-      "magnitude": 22297,
-      "weight": 0.74,
-      "options_confirm": true
+      "stance": "NEUTRAL",
+      "fut_net": -2957,
+      "options_net": -88800,
+      "magnitude": 2957,
+      "weight": 0.1,
+      "options_confirm": false
     },
     "Pro": {
       "stance": "BEARISH",
-      "fut_net": -11103,
-      "options_net": 131467,
-      "magnitude": 11103,
-      "weight": 0.37,
-      "options_confirm": false
+      "fut_net": -7242,
+      "options_net": -90057,
+      "magnitude": 7242,
+      "weight": 0.24,
+      "options_confirm": true
     }
   },
-  "key_factors": [
-    "FII strongly bullish (+22,297 contracts) with options confirmation"
-  ],
-  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
+  "key_factors": [],
+  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
 }
