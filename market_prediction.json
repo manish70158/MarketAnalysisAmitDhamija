@@ -1,42 +1,45 @@
 {
-  "date": "24 AUG 2026",
-  "market_view": "BEARISH",
-  "confidence": "LOW",
+  "date": "25 AUG 2026",
+  "market_view": "BULLISH",
+  "confidence": "MEDIUM",
   "participants": {
     "Client": {
-      "stance": "BULLISH",
-      "fut_net": 10140,
-      "options_net": 308601,
-      "magnitude": 10140,
-      "weight": 0.34,
+      "stance": "BEARISH",
+      "fut_net": -23520,
+      "options_net": -372286,
+      "magnitude": 23520,
+      "weight": 0.78,
       "options_confirm": true,
-      "contrarian_view": "BEARISH"
+      "contrarian_view": "BULLISH"
     },
     "DII": {
-      "stance": "NEUTRAL",
-      "fut_net": -3095,
-      "options_net": -19380,
-      "magnitude": 3095,
-      "weight": 0.1,
+      "stance": "BEARISH",
+      "fut_net": -7678,
+      "options_net": 29015,
+      "magnitude": 7678,
+      "weight": 0.26,
       "options_confirm": false
     },
     "FII": {
-      "stance": "BEARISH",
-      "fut_net": -9528,
-      "options_net": -95578,
-      "magnitude": 9528,
-      "weight": 0.32,
+      "stance": "BULLISH",
+      "fut_net": 35156,
+      "options_net": 33772,
+      "magnitude": 35156,
+      "weight": 1.0,
       "options_confirm": true
     },
     "Pro": {
       "stance": "NEUTRAL",
-      "fut_net": 2483,
-      "options_net": -193643,
-      "magnitude": 2483,
-      "weight": 0.08,
+      "fut_net": -3958,
+      "options_net": 309497,
+      "magnitude": 3958,
+      "weight": 0.13,
       "options_confirm": false
     }
   },
-  "key_factors": [],
-  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
+  "key_factors": [
+    "Clients heavily bearish (-23,520 contracts) \u2192 Strong contrarian bullish signal",
+    "FII strongly bullish (+35,156 contracts) with options confirmation"
+  ],
+  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
 }
