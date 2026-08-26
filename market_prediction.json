@@ -1,45 +1,42 @@
 {
-  "date": "25 AUG 2026",
-  "market_view": "BULLISH",
-  "confidence": "MEDIUM",
+  "date": "26 AUG 2026",
+  "market_view": "NEUTRAL",
+  "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BEARISH",
-      "fut_net": -23520,
-      "options_net": -372286,
-      "magnitude": 23520,
-      "weight": 0.78,
-      "options_confirm": true,
-      "contrarian_view": "BULLISH"
+      "stance": "NEUTRAL",
+      "fut_net": 2647,
+      "options_net": 155360,
+      "magnitude": 2647,
+      "weight": 0.09,
+      "options_confirm": false,
+      "contrarian_view": "NEUTRAL"
     },
     "DII": {
-      "stance": "BEARISH",
-      "fut_net": -7678,
-      "options_net": 29015,
-      "magnitude": 7678,
-      "weight": 0.26,
-      "options_confirm": false
+      "stance": "NEUTRAL",
+      "fut_net": 247,
+      "options_net": -1546,
+      "magnitude": 247,
+      "weight": 0.01,
+      "options_confirm": true
     },
     "FII": {
-      "stance": "BULLISH",
-      "fut_net": 35156,
-      "options_net": 33772,
-      "magnitude": 35156,
-      "weight": 1.0,
-      "options_confirm": true
+      "stance": "NEUTRAL",
+      "fut_net": -1833,
+      "options_net": -43770,
+      "magnitude": 1833,
+      "weight": 0.06,
+      "options_confirm": false
     },
     "Pro": {
       "stance": "NEUTRAL",
-      "fut_net": -3958,
-      "options_net": 309497,
-      "magnitude": 3958,
-      "weight": 0.13,
+      "fut_net": -1061,
+      "options_net": -110043,
+      "magnitude": 1061,
+      "weight": 0.04,
       "options_confirm": false
     }
   },
-  "key_factors": [
-    "Clients heavily bearish (-23,520 contracts) \u2192 Strong contrarian bullish signal",
-    "FII strongly bullish (+35,156 contracts) with options confirmation"
-  ],
-  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
+  "key_factors": [],
+  "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points."
 }
