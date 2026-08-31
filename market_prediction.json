@@ -1,39 +1,39 @@
 {
-  "date": "28 AUG 2026",
+  "date": "31 AUG 2026",
   "market_view": "NEUTRAL",
   "confidence": "LOW",
   "participants": {
     "Client": {
       "stance": "NEUTRAL",
-      "fut_net": 2801,
-      "options_net": -233873,
-      "magnitude": 2801,
-      "weight": 0.09,
+      "fut_net": 1260,
+      "options_net": 65465,
+      "magnitude": 1260,
+      "weight": 0.04,
       "options_confirm": false,
       "contrarian_view": "NEUTRAL"
     },
     "DII": {
       "stance": "NEUTRAL",
-      "fut_net": 700,
-      "options_net": -950,
-      "magnitude": 700,
-      "weight": 0.02,
+      "fut_net": 75,
+      "options_net": 2665,
+      "magnitude": 75,
+      "weight": 0.0,
       "options_confirm": true
     },
     "FII": {
-      "stance": "NEUTRAL",
-      "fut_net": -4841,
-      "options_net": 67836,
-      "magnitude": 4841,
-      "weight": 0.16,
+      "stance": "BEARISH",
+      "fut_net": -6682,
+      "options_net": 47511,
+      "magnitude": 6682,
+      "weight": 0.22,
       "options_confirm": false
     },
     "Pro": {
-      "stance": "NEUTRAL",
-      "fut_net": 1340,
-      "options_net": 166987,
-      "magnitude": 1340,
-      "weight": 0.04,
+      "stance": "BULLISH",
+      "fut_net": 5347,
+      "options_net": -115640,
+      "magnitude": 5347,
+      "weight": 0.18,
       "options_confirm": false
     }
   },
