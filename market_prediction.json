@@ -1,39 +1,39 @@
 {
-  "date": "07 SEP 2026",
+  "date": "08 SEP 2026",
   "market_view": "BEARISH",
   "confidence": "LOW",
   "participants": {
     "Client": {
       "stance": "BULLISH",
-      "fut_net": 9068,
-      "options_net": 314700,
-      "magnitude": 9068,
-      "weight": 0.3,
-      "options_confirm": true,
+      "fut_net": 6728,
+      "options_net": -169569,
+      "magnitude": 6728,
+      "weight": 0.22,
+      "options_confirm": false,
       "contrarian_view": "BEARISH"
     },
     "DII": {
       "stance": "NEUTRAL",
-      "fut_net": -316,
-      "options_net": 768,
-      "magnitude": 316,
+      "fut_net": 219,
+      "options_net": 44,
+      "magnitude": 219,
       "weight": 0.01,
       "options_confirm": true
     },
     "FII": {
       "stance": "BEARISH",
-      "fut_net": -14255,
-      "options_net": -44884,
-      "magnitude": 14255,
-      "weight": 0.48,
+      "fut_net": -11464,
+      "options_net": -23478,
+      "magnitude": 11464,
+      "weight": 0.38,
       "options_confirm": true
     },
     "Pro": {
-      "stance": "BULLISH",
-      "fut_net": 5503,
-      "options_net": -270584,
-      "magnitude": 5503,
-      "weight": 0.18,
+      "stance": "NEUTRAL",
+      "fut_net": 4517,
+      "options_net": 193003,
+      "magnitude": 4517,
+      "weight": 0.15,
       "options_confirm": false
     }
   },
