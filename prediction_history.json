@@ -1425,6 +1425,49 @@
       "key_factors": [],
       "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-09-16T19:00:54.569772"
+    },
+    {
+      "date": "17 SEP 2026",
+      "market_view": "NEUTRAL",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "BULLISH",
+          "fut_net": 5646,
+          "options_net": 93612,
+          "magnitude": 5646,
+          "weight": 0.19,
+          "options_confirm": true,
+          "contrarian_view": "BEARISH"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": 312,
+          "options_net": -3837,
+          "magnitude": 312,
+          "weight": 0.01,
+          "options_confirm": true
+        },
+        "FII": {
+          "stance": "NEUTRAL",
+          "fut_net": -1938,
+          "options_net": -27234,
+          "magnitude": 1938,
+          "weight": 0.06,
+          "options_confirm": false
+        },
+        "Pro": {
+          "stance": "NEUTRAL",
+          "fut_net": -4020,
+          "options_net": -62541,
+          "magnitude": 4020,
+          "weight": 0.13,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [],
+      "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-09-17T19:10:39.809872"
     }
   ],
   "metadata": {
