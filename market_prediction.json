@@ -1,42 +1,42 @@
 {
-  "date": "24 SEP 2026",
-  "market_view": "BEARISH",
+  "date": "25 SEP 2026",
+  "market_view": "NEUTRAL",
   "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BULLISH",
-      "fut_net": 5866,
-      "options_net": 478474,
-      "magnitude": 5866,
-      "weight": 0.2,
-      "options_confirm": true,
-      "contrarian_view": "BEARISH"
+      "stance": "NEUTRAL",
+      "fut_net": -1712,
+      "options_net": -242339,
+      "magnitude": 1712,
+      "weight": 0.06,
+      "options_confirm": false,
+      "contrarian_view": "NEUTRAL"
     },
     "DII": {
       "stance": "NEUTRAL",
-      "fut_net": -4756,
-      "options_net": -2187,
-      "magnitude": 4756,
-      "weight": 0.16,
+      "fut_net": -875,
+      "options_net": 4482,
+      "magnitude": 875,
+      "weight": 0.03,
       "options_confirm": true
     },
     "FII": {
-      "stance": "BEARISH",
-      "fut_net": -11209,
-      "options_net": -205985,
-      "magnitude": 11209,
-      "weight": 0.37,
-      "options_confirm": true
+      "stance": "NEUTRAL",
+      "fut_net": -2179,
+      "options_net": 22394,
+      "magnitude": 2179,
+      "weight": 0.07,
+      "options_confirm": false
     },
     "Pro": {
-      "stance": "BULLISH",
-      "fut_net": 10099,
-      "options_net": -270304,
-      "magnitude": 10099,
-      "weight": 0.34,
+      "stance": "NEUTRAL",
+      "fut_net": 4766,
+      "options_net": 215464,
+      "magnitude": 4766,
+      "weight": 0.16,
       "options_confirm": false
     }
   },
   "key_factors": [],
-  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
+  "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points."
 }
