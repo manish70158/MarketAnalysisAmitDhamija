@@ -1,47 +1,44 @@
 {
-  "date": "29 SEP 2026",
-  "market_view": "BULLISH",
-  "confidence": "MEDIUM",
+  "date": "30 SEP 2026",
+  "market_view": "BEARISH",
+  "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BEARISH",
-      "fut_net": -33705,
-      "options_net": -285909,
-      "magnitude": 33705,
-      "weight": 1.0,
+      "stance": "BULLISH",
+      "fut_net": 18613,
+      "options_net": 213846,
+      "magnitude": 18613,
+      "weight": 0.62,
       "options_confirm": true,
-      "contrarian_view": "BULLISH"
+      "contrarian_view": "BEARISH"
     },
     "DII": {
-      "stance": "BULLISH",
-      "fut_net": 28520,
-      "options_net": -3201,
-      "magnitude": 28520,
-      "weight": 0.95,
-      "options_confirm": false
+      "stance": "NEUTRAL",
+      "fut_net": -3458,
+      "options_net": 3715,
+      "magnitude": 3458,
+      "weight": 0.12,
+      "options_confirm": true
     },
     "FII": {
-      "stance": "BULLISH",
-      "fut_net": 52362,
-      "options_net": -152451,
-      "magnitude": 52362,
-      "weight": 1.0,
-      "options_confirm": false
+      "stance": "BEARISH",
+      "fut_net": -15563,
+      "options_net": -60988,
+      "magnitude": 15563,
+      "weight": 0.52,
+      "options_confirm": true
     },
     "Pro": {
-      "stance": "BEARISH",
-      "fut_net": -47177,
-      "options_net": 441559,
-      "magnitude": 47177,
-      "weight": 1.0,
+      "stance": "NEUTRAL",
+      "fut_net": 408,
+      "options_net": -156573,
+      "magnitude": 408,
+      "weight": 0.01,
       "options_confirm": false
     }
   },
   "key_factors": [
-    "Clients heavily bearish (-33,705 contracts) \u2192 Strong contrarian bullish signal",
-    "FII strongly bullish (+52,362 contracts)",
-    "Pro strongly bearish (-47,177 contracts)",
-    "DII bullish (+28,520 contracts)"
+    "FII strongly bearish (-15,563 contracts) with options confirmation"
   ],
-  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
+  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
 }
