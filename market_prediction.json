@@ -1,45 +1,42 @@
 {
-  "date": "01 OCT 2026",
-  "market_view": "BEARISH",
-  "confidence": "MEDIUM",
+  "date": "05 OCT 2026",
+  "market_view": "BULLISH",
+  "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BULLISH",
-      "fut_net": 7386,
-      "options_net": -137838,
-      "magnitude": 7386,
-      "weight": 0.25,
-      "options_confirm": false,
-      "contrarian_view": "BEARISH"
+      "stance": "BEARISH",
+      "fut_net": -7779,
+      "options_net": -384273,
+      "magnitude": 7779,
+      "weight": 0.26,
+      "options_confirm": true,
+      "contrarian_view": "BULLISH"
     },
     "DII": {
       "stance": "NEUTRAL",
-      "fut_net": 1207,
-      "options_net": 6557,
-      "magnitude": 1207,
-      "weight": 0.04,
+      "fut_net": -429,
+      "options_net": 5121,
+      "magnitude": 429,
+      "weight": 0.01,
       "options_confirm": false
     },
     "FII": {
-      "stance": "BEARISH",
-      "fut_net": -27304,
-      "options_net": 35665,
-      "magnitude": 27304,
-      "weight": 0.91,
-      "options_confirm": false
+      "stance": "BULLISH",
+      "fut_net": 7783,
+      "options_net": 143997,
+      "magnitude": 7783,
+      "weight": 0.26,
+      "options_confirm": true
     },
     "Pro": {
-      "stance": "BULLISH",
-      "fut_net": 18711,
-      "options_net": 95617,
-      "magnitude": 18711,
-      "weight": 0.62,
-      "options_confirm": true
+      "stance": "NEUTRAL",
+      "fut_net": 425,
+      "options_net": 235156,
+      "magnitude": 425,
+      "weight": 0.01,
+      "options_confirm": false
     }
   },
-  "key_factors": [
-    "FII strongly bearish (-27,304 contracts)",
-    "Pro strongly bullish (+18,711 contracts) with options confirmation"
-  ],
-  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
+  "key_factors": [],
+  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
 }
