@@ -1,42 +1,45 @@
 {
-  "date": "14 OCT 2026",
-  "market_view": "BEARISH",
+  "date": "15 OCT 2026",
+  "market_view": "BULLISH",
   "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BULLISH",
-      "fut_net": 15501,
-      "options_net": 195635,
-      "magnitude": 15501,
-      "weight": 0.52,
+      "stance": "BEARISH",
+      "fut_net": -26046,
+      "options_net": -363968,
+      "magnitude": 26046,
+      "weight": 0.87,
       "options_confirm": true,
-      "contrarian_view": "BEARISH"
+      "contrarian_view": "BULLISH"
     },
     "DII": {
-      "stance": "NEUTRAL",
-      "fut_net": -4509,
-      "options_net": 1950,
-      "magnitude": 4509,
-      "weight": 0.15,
-      "options_confirm": true
+      "stance": "BULLISH",
+      "fut_net": 6419,
+      "options_net": -84989,
+      "magnitude": 6419,
+      "weight": 0.21,
+      "options_confirm": false
     },
     "FII": {
-      "stance": "BEARISH",
-      "fut_net": -7202,
-      "options_net": -23338,
-      "magnitude": 7202,
-      "weight": 0.24,
+      "stance": "BULLISH",
+      "fut_net": 16870,
+      "options_net": 222763,
+      "magnitude": 16870,
+      "weight": 0.56,
       "options_confirm": true
     },
     "Pro": {
       "stance": "NEUTRAL",
-      "fut_net": -3790,
-      "options_net": -174248,
-      "magnitude": 3790,
-      "weight": 0.13,
+      "fut_net": 2757,
+      "options_net": 226195,
+      "magnitude": 2757,
+      "weight": 0.09,
       "options_confirm": false
     }
   },
-  "key_factors": [],
-  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
+  "key_factors": [
+    "Clients heavily bearish (-26,046 contracts) \u2192 Strong contrarian bullish signal",
+    "FII strongly bullish (+16,870 contracts) with options confirmation"
+  ],
+  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
 }
