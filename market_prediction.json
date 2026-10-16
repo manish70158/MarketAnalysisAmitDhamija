@@ -1,45 +1,42 @@
 {
-  "date": "15 OCT 2026",
-  "market_view": "BULLISH",
+  "date": "16 OCT 2026",
+  "market_view": "NEUTRAL",
   "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BEARISH",
-      "fut_net": -26046,
-      "options_net": -363968,
-      "magnitude": 26046,
-      "weight": 0.87,
-      "options_confirm": true,
-      "contrarian_view": "BULLISH"
+      "stance": "NEUTRAL",
+      "fut_net": 602,
+      "options_net": 18057,
+      "magnitude": 602,
+      "weight": 0.02,
+      "options_confirm": false,
+      "contrarian_view": "NEUTRAL"
     },
     "DII": {
-      "stance": "BULLISH",
-      "fut_net": 6419,
-      "options_net": -84989,
-      "magnitude": 6419,
-      "weight": 0.21,
+      "stance": "NEUTRAL",
+      "fut_net": 752,
+      "options_net": -18650,
+      "magnitude": 752,
+      "weight": 0.03,
       "options_confirm": false
     },
     "FII": {
       "stance": "BULLISH",
-      "fut_net": 16870,
-      "options_net": 222763,
-      "magnitude": 16870,
-      "weight": 0.56,
-      "options_confirm": true
+      "fut_net": 6828,
+      "options_net": -140004,
+      "magnitude": 6828,
+      "weight": 0.23,
+      "options_confirm": false
     },
     "Pro": {
-      "stance": "NEUTRAL",
-      "fut_net": 2757,
-      "options_net": 226195,
-      "magnitude": 2757,
-      "weight": 0.09,
+      "stance": "BEARISH",
+      "fut_net": -8182,
+      "options_net": 140596,
+      "magnitude": 8182,
+      "weight": 0.27,
       "options_confirm": false
     }
   },
-  "key_factors": [
-    "Clients heavily bearish (-26,046 contracts) \u2192 Strong contrarian bullish signal",
-    "FII strongly bullish (+16,870 contracts) with options confirmation"
-  ],
-  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
+  "key_factors": [],
+  "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points."
 }
