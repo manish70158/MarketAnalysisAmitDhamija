@@ -2341,6 +2341,49 @@
       "key_factors": [],
       "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-10-16T18:55:47.018430"
+    },
+    {
+      "date": "19 OCT 2026",
+      "market_view": "BEARISH",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "BULLISH",
+          "fut_net": 10877,
+          "options_net": 371890,
+          "magnitude": 10877,
+          "weight": 0.36,
+          "options_confirm": true,
+          "contrarian_view": "BEARISH"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": -339,
+          "options_net": -8532,
+          "magnitude": 339,
+          "weight": 0.01,
+          "options_confirm": false
+        },
+        "FII": {
+          "stance": "BEARISH",
+          "fut_net": -6931,
+          "options_net": -31246,
+          "magnitude": 6931,
+          "weight": 0.23,
+          "options_confirm": true
+        },
+        "Pro": {
+          "stance": "NEUTRAL",
+          "fut_net": -3607,
+          "options_net": -332113,
+          "magnitude": 3607,
+          "weight": 0.12,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [],
+      "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-10-19T20:40:50.159243"
     }
   ],
   "metadata": {
