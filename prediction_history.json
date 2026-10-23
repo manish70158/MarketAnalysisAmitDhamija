@@ -2470,6 +2470,49 @@
       "key_factors": [],
       "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-10-22T19:22:07.489492"
+    },
+    {
+      "date": "23 OCT 2026",
+      "market_view": "NEUTRAL",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "NEUTRAL",
+          "fut_net": -2977,
+          "options_net": 87835,
+          "magnitude": 2977,
+          "weight": 0.1,
+          "options_confirm": false,
+          "contrarian_view": "NEUTRAL"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": 1610,
+          "options_net": 160,
+          "magnitude": 1610,
+          "weight": 0.05,
+          "options_confirm": true
+        },
+        "FII": {
+          "stance": "NEUTRAL",
+          "fut_net": 117,
+          "options_net": -60365,
+          "magnitude": 117,
+          "weight": 0.0,
+          "options_confirm": false
+        },
+        "Pro": {
+          "stance": "NEUTRAL",
+          "fut_net": 1250,
+          "options_net": -27630,
+          "magnitude": 1250,
+          "weight": 0.04,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [],
+      "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-10-23T19:28:35.961772"
     }
   ],
   "metadata": {
