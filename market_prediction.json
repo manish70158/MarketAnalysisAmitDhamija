@@ -1,45 +1,42 @@
 {
-  "date": "27 OCT 2026",
-  "market_view": "BULLISH",
-  "confidence": "MEDIUM",
+  "date": "28 OCT 2026",
+  "market_view": "BEARISH",
+  "confidence": "LOW",
   "participants": {
     "Client": {
-      "stance": "BEARISH",
-      "fut_net": -13156,
-      "options_net": 41745,
-      "magnitude": 13156,
-      "weight": 0.44,
+      "stance": "BULLISH",
+      "fut_net": 8594,
+      "options_net": -128540,
+      "magnitude": 8594,
+      "weight": 0.29,
       "options_confirm": false,
-      "contrarian_view": "BULLISH"
+      "contrarian_view": "BEARISH"
     },
     "DII": {
       "stance": "NEUTRAL",
-      "fut_net": -1132,
-      "options_net": 2591,
-      "magnitude": 1132,
-      "weight": 0.04,
+      "fut_net": 1808,
+      "options_net": -137,
+      "magnitude": 1808,
+      "weight": 0.06,
       "options_confirm": true
     },
     "FII": {
-      "stance": "BULLISH",
-      "fut_net": 56048,
-      "options_net": -112636,
-      "magnitude": 56048,
-      "weight": 1.0,
+      "stance": "BEARISH",
+      "fut_net": -13985,
+      "options_net": 51135,
+      "magnitude": 13985,
+      "weight": 0.47,
       "options_confirm": false
     },
     "Pro": {
-      "stance": "BEARISH",
-      "fut_net": -41760,
-      "options_net": 68302,
-      "magnitude": 41760,
-      "weight": 1.0,
+      "stance": "NEUTRAL",
+      "fut_net": 3583,
+      "options_net": 77540,
+      "magnitude": 3583,
+      "weight": 0.12,
       "options_confirm": false
     }
   },
-  "key_factors": [
-    "FII strongly bullish (+56,048 contracts)",
-    "Pro strongly bearish (-41,760 contracts)"
-  ],
-  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
+  "key_factors": [],
+  "reasoning": "Bearish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points."
 }
