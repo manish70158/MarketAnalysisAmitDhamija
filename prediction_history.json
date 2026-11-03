@@ -2774,6 +2774,52 @@
       "key_factors": [],
       "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-11-02T23:10:45.836494"
+    },
+    {
+      "date": "03 NOV 2026",
+      "market_view": "BULLISH",
+      "confidence": "MEDIUM",
+      "participants": {
+        "Client": {
+          "stance": "BEARISH",
+          "fut_net": -25972,
+          "options_net": -64956,
+          "magnitude": 25972,
+          "weight": 0.87,
+          "options_confirm": true,
+          "contrarian_view": "BULLISH"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": 2132,
+          "options_net": 819,
+          "magnitude": 2132,
+          "weight": 0.07,
+          "options_confirm": true
+        },
+        "FII": {
+          "stance": "BULLISH",
+          "fut_net": 30442,
+          "options_net": 120702,
+          "magnitude": 30442,
+          "weight": 1.0,
+          "options_confirm": true
+        },
+        "Pro": {
+          "stance": "BEARISH",
+          "fut_net": -6602,
+          "options_net": -56566,
+          "magnitude": 6602,
+          "weight": 0.22,
+          "options_confirm": true
+        }
+      },
+      "key_factors": [
+        "Clients heavily bearish (-25,972 contracts) \u2192 Strong contrarian bullish signal",
+        "FII strongly bullish (+30,442 contracts) with options confirmation"
+      ],
+      "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation.",
+      "recorded_at": "2026-11-03T21:12:13.048937"
     }
   ],
   "metadata": {
