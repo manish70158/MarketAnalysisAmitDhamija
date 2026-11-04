@@ -2820,6 +2820,51 @@
       ],
       "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation.",
       "recorded_at": "2026-11-03T21:12:13.048937"
+    },
+    {
+      "date": "04 NOV 2026",
+      "market_view": "NEUTRAL",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "NEUTRAL",
+          "fut_net": -3685,
+          "options_net": 109835,
+          "magnitude": 3685,
+          "weight": 0.12,
+          "options_confirm": false,
+          "contrarian_view": "NEUTRAL"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": -786,
+          "options_net": 6355,
+          "magnitude": 786,
+          "weight": 0.03,
+          "options_confirm": false
+        },
+        "FII": {
+          "stance": "BULLISH",
+          "fut_net": 16778,
+          "options_net": -14908,
+          "magnitude": 16778,
+          "weight": 0.56,
+          "options_confirm": false
+        },
+        "Pro": {
+          "stance": "BEARISH",
+          "fut_net": -12307,
+          "options_net": -101282,
+          "magnitude": 12307,
+          "weight": 0.41,
+          "options_confirm": true
+        }
+      },
+      "key_factors": [
+        "FII strongly bullish (+16,778 contracts)"
+      ],
+      "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-11-04T21:26:41.564192"
     }
   ],
   "metadata": {
