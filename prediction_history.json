@@ -2865,6 +2865,53 @@
       ],
       "reasoning": "Neutral view due to mixed signals or lack of clear directional positioning. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-11-04T21:26:41.564192"
+    },
+    {
+      "date": "05 NOV 2026",
+      "market_view": "BULLISH",
+      "confidence": "HIGH",
+      "participants": {
+        "Client": {
+          "stance": "BEARISH",
+          "fut_net": -45152,
+          "options_net": -72182,
+          "magnitude": 45152,
+          "weight": 1.0,
+          "options_confirm": true,
+          "contrarian_view": "BULLISH"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": 2808,
+          "options_net": 3513,
+          "magnitude": 2808,
+          "weight": 0.09,
+          "options_confirm": true
+        },
+        "FII": {
+          "stance": "BULLISH",
+          "fut_net": 48541,
+          "options_net": 63231,
+          "magnitude": 48541,
+          "weight": 1.0,
+          "options_confirm": true
+        },
+        "Pro": {
+          "stance": "BEARISH",
+          "fut_net": -6197,
+          "options_net": 5440,
+          "magnitude": 6197,
+          "weight": 0.21,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [
+        "Clients heavily bearish (-45,152 contracts) \u2192 Strong contrarian bullish signal",
+        "FII strongly bullish (+48,541 contracts) with options confirmation",
+        "Combined smart money (FII+Pro): +42,344 contracts (very high)"
+      ],
+      "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. High conviction setup with large positions and confirmation across multiple indicators.",
+      "recorded_at": "2026-11-05T21:30:41.551787"
     }
   ],
   "metadata": {
