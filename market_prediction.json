@@ -1,46 +1,45 @@
 {
-  "date": "05 NOV 2026",
+  "date": "06 NOV 2026",
   "market_view": "BULLISH",
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "participants": {
     "Client": {
       "stance": "BEARISH",
-      "fut_net": -45152,
-      "options_net": -72182,
-      "magnitude": 45152,
-      "weight": 1.0,
+      "fut_net": -20860,
+      "options_net": -102388,
+      "magnitude": 20860,
+      "weight": 0.7,
       "options_confirm": true,
       "contrarian_view": "BULLISH"
     },
     "DII": {
-      "stance": "NEUTRAL",
-      "fut_net": 2808,
-      "options_net": 3513,
-      "magnitude": 2808,
-      "weight": 0.09,
-      "options_confirm": true
+      "stance": "BEARISH",
+      "fut_net": -9590,
+      "options_net": 2199,
+      "magnitude": 9590,
+      "weight": 0.32,
+      "options_confirm": false
     },
     "FII": {
       "stance": "BULLISH",
-      "fut_net": 48541,
-      "options_net": 63231,
-      "magnitude": 48541,
+      "fut_net": 37022,
+      "options_net": 2468,
+      "magnitude": 37022,
       "weight": 1.0,
       "options_confirm": true
     },
     "Pro": {
       "stance": "BEARISH",
-      "fut_net": -6197,
-      "options_net": 5440,
-      "magnitude": 6197,
-      "weight": 0.21,
+      "fut_net": -6572,
+      "options_net": 97721,
+      "magnitude": 6572,
+      "weight": 0.22,
       "options_confirm": false
     }
   },
   "key_factors": [
-    "Clients heavily bearish (-45,152 contracts) \u2192 Strong contrarian bullish signal",
-    "FII strongly bullish (+48,541 contracts) with options confirmation",
-    "Combined smart money (FII+Pro): +42,344 contracts (very high)"
+    "Clients heavily bearish (-20,860 contracts) \u2192 Strong contrarian bullish signal",
+    "FII strongly bullish (+37,022 contracts) with options confirmation"
   ],
-  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. High conviction setup with large positions and confirmation across multiple indicators."
+  "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Moderate conviction with reasonable position sizes but limited confirmation."
 }
