@@ -3306,6 +3306,51 @@
       "key_factors": [],
       "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points.",
       "recorded_at": "2026-11-19T22:43:58.034442"
+    },
+    {
+      "date": "20 NOV 2026",
+      "market_view": "BULLISH",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "BEARISH",
+          "fut_net": -9762,
+          "options_net": 155266,
+          "magnitude": 9762,
+          "weight": 0.33,
+          "options_confirm": false,
+          "contrarian_view": "BULLISH"
+        },
+        "DII": {
+          "stance": "BEARISH",
+          "fut_net": -5615,
+          "options_net": 6135,
+          "magnitude": 5615,
+          "weight": 0.19,
+          "options_confirm": false
+        },
+        "FII": {
+          "stance": "NEUTRAL",
+          "fut_net": -2207,
+          "options_net": -62022,
+          "magnitude": 2207,
+          "weight": 0.07,
+          "options_confirm": false
+        },
+        "Pro": {
+          "stance": "BULLISH",
+          "fut_net": 17584,
+          "options_net": -99378,
+          "magnitude": 17584,
+          "weight": 0.59,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [
+        "Pro strongly bullish (+17,584 contracts)"
+      ],
+      "reasoning": "Bullish view with partial alignment between contrarian Client signal and institutional money. Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-11-20T22:18:18.096477"
     }
   ],
   "metadata": {
