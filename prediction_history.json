@@ -3399,6 +3399,52 @@
       ],
       "reasoning": "Strong Bearish view based on strong alignment between contrarian Client positioning and smart money (FII+Pro). High conviction setup with large positions and confirmation across multiple indicators.",
       "recorded_at": "2026-11-24T02:29:48.095792"
+    },
+    {
+      "date": "25 NOV 2026",
+      "market_view": "STRONG_BULLISH",
+      "confidence": "LOW",
+      "participants": {
+        "Client": {
+          "stance": "BEARISH",
+          "fut_net": -24327,
+          "options_net": 19960,
+          "magnitude": 24327,
+          "weight": 0.81,
+          "options_confirm": false,
+          "contrarian_view": "BULLISH"
+        },
+        "DII": {
+          "stance": "NEUTRAL",
+          "fut_net": -4714,
+          "options_net": 1686,
+          "magnitude": 4714,
+          "weight": 0.16,
+          "options_confirm": true
+        },
+        "FII": {
+          "stance": "BULLISH",
+          "fut_net": 5719,
+          "options_net": 8402,
+          "magnitude": 5719,
+          "weight": 0.19,
+          "options_confirm": true
+        },
+        "Pro": {
+          "stance": "BULLISH",
+          "fut_net": 23322,
+          "options_net": -30049,
+          "magnitude": 23322,
+          "weight": 0.78,
+          "options_confirm": false
+        }
+      },
+      "key_factors": [
+        "Clients heavily bearish (-24,327 contracts) \u2192 Strong contrarian bullish signal",
+        "Pro strongly bullish (+23,322 contracts)"
+      ],
+      "reasoning": "Strong Bullish view based on strong alignment between contrarian Client positioning and smart money (FII+Pro). Low conviction due to weak signals or conflicting data points.",
+      "recorded_at": "2026-11-25T23:44:06.423463"
     }
   ],
   "metadata": {
